@@ -45,7 +45,7 @@ jobs:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
           command:       
-            bash conda activate fastaiv2GPU ;
+            conda activate fastaiv2GPU ;
             pytest ;
 
 # Invoke jobs via workflows
