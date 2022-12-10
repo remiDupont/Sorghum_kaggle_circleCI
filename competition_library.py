@@ -1,17 +1,12 @@
 from fastai.vision.all import *
-
 import random
-
-
 
 def label_func_0(path_obj):
     return 1
 
 
-
-
 def randomly_subsample(files,prob_keep:float):
-    
+
     """function that will return a subsequence of infut list (file)
     Used to train and validate on a subpart of the dataset 
 
@@ -22,6 +17,7 @@ def randomly_subsample(files,prob_keep:float):
     Returns:
         _type_: sub_sequence of files 
     """
+    print("testing =============================================")
 
     split_file = []
     for f in files:
