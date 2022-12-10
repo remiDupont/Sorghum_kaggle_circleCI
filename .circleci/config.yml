@@ -35,10 +35,14 @@ jobs:
           name: install dependencies
           command: conda env create -f environment.yml
       - run:
-          name: Run tests
+          name: Run conda init 
           # This assumes pytest is installed via the install-package step above
           command: 
             conda init bash ;
+      - run:
+          name: Run tests
+          # This assumes pytest is installed via the install-package step above
+          command:       
             conda activate fastaiv2GPU ;
             pytest ;
 
