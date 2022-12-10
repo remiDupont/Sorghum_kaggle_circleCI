@@ -32,7 +32,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install dependencies
+          name: install dependencies 0
           command: conda env create -f environment.yml
       - run:
           name: Run conda init 
