@@ -37,9 +37,9 @@ jobs:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
           command: 
-            conda init bash
-            conda activate fastaiv2GPU 
-            pytest
+           #  conda init bash ;
+            conda activate fastaiv2GPU ;
+            pytest ;
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
