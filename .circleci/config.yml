@@ -46,7 +46,7 @@ jobs:
           # This assumes pytest is installed via the install-package step above
           command:
             source activate fastaiv2GPU ;
-            pytest --ignore=/home/test_user/.conda/ ;
+            pytest ;
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
