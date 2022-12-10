@@ -17,8 +17,6 @@ def randomly_subsample(files,prob_keep:float):
     Returns:
         _type_: sub_sequence of files 
     """
-    print("testing =============================================")
-
     split_file = []
     for f in files:
         if random.random()< prob_keep:
