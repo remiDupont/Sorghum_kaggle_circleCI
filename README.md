@@ -88,7 +88,6 @@ This competition use simple mean classification accuracy as evaluation metric. T
 |convnext_large_in22k + convnext_large, 512x512, data-augmentation, TTA | 0.842 |
 |convnext_large_in22k + convnext_large, 1024x1024, data-augmentation, TTA | **0.882** |
 
-</font>
 ## 5) Conclusion
 
 In this project, we developed a **simple strategy leading quickly to a very good result** (top 8%). 
