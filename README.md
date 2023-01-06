@@ -65,14 +65,9 @@ I also converted my model from fp32 to fp16, reducing the GPU V-RAM footprint by
 <br>
 
 *the table below summarizes my results (using a basic resnet18)*
-<style scoped>
-table {
-  font-size: 13px;
-}
-</style>
 
 |Training strategy|Time for 1 epoch |
-|-|-|
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 |Default strategy, image-size: 1024x1024|1 h 20 min|
 |image-size: 512x512|24 min|
 |image-size: 256x256|10 min|
@@ -82,11 +77,9 @@ table {
 This competition use simple mean classification accuracy as evaluation metric. This is how we will evaluate our models.
 <br>
 
-<font size="+50">
-
 
 |Training strategy|Classification accuracy on test-set (Kaggle leaderboard)  |
-|-|-|
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 |Resnet18 256x256 with no data-augmentation |0.581|
 |Resnet18 256x256 with data-augmentation |0.593|
 |Resnet18 256x256 with data-augmentation, TTA |0.653|
