@@ -3,7 +3,7 @@
 
 
 This repo contains the code for my submission for [Sorghum kaggle competition](https://www.kaggle.com/competitions/sorghum-id-fgvc-9 "Link to the sorghum image classification competition"). <br> 
-**I ranked 29 (top 8 %)** in **only 2 weeks** (my competitors have been working on it for 3 months) using only a **single medium size GPU** (Nvidia 1080 TI) <br>
+**I ranked 15/253 (top 5 %)** in **only 3 weeks** (my competitors have been working on it for 3 months) using only a **single medium size GPU** (Nvidia 1080 TI) <br>
 My goal on this project was not to spend a lot of time fine-tuning a complex solution (annotating extra data, customizing pipeline,..), but have a **simple yet effective approach** leading relatively quickly to **very good results**, using **simple methods** that I can **implement in a few hours**. <br>
 As an engineer, I know that I have to focus on maintaining a **high quality Ml model while keeping the development cost (time) low**, so this is what this project intends to. <br>
 I also used [CircleCI](https://circleci ) as a **CI/CD** tool on this project. <br><br>
@@ -85,8 +85,8 @@ This competition use simple mean classification accuracy as evaluation metric. T
 |Resnet18 256x256 with data-augmentation, TTA |0.653|
 |convnext_large_in22k 256x256, data-augmentation, TTA | 0.763 |   
 |convnext_large_in22k + SWIN_large assembling, 256x256, data-augmentation, TTA | 0.782 |
-|convnext_large_in22k + convnext_large, 512x512, data-augmentation, TTA | 0.842 |
-|convnext_large_in22k + convnext_large, 1024x1024, data-augmentation, TTA | **0.882** |
+|convnext_large_in22k + convnext_large, 512x512, data-augmentation, TTA | 0.87 |
+|convnext_large_in22k + convnext_large, 1024x1024, data-augmentation, TTA | **0.911** |
 
 ## 5) Conclusion
 
