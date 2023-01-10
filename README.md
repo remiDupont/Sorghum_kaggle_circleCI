@@ -34,7 +34,7 @@ An other good thing about circleCI is that has it runs in docker container, so y
 
 ## 3) Environment
 
-My code is in Python3.7, you will find all my package in the requirement.txt [requirements.txt](requirements.txt) file. <br>
+My code is in Python3.7, you will find all my package in the [requirements.txt](requirements.txt) file. <br>
 With conda, you just have to run : 
  > conda env create -f environment.yml <br>
  > conda activate $new_environment_name <br>
@@ -53,6 +53,7 @@ I first used as very simple CNN, resnet18 that I can train quickly on some image
 
 if I do more complex stuff resulting in a similar/lower model performance, **it is therefore very likely that I have a bug** <br>
 <br>
+
 ### 4.1) Performances
 
 Before we go further, let's optimize our code. Training a single takes a lot of time on my hardware (8 cores CPU only, nvidia1080 TI GPU) <br>
@@ -72,6 +73,7 @@ I also converted my model from fp32 to fp16, reducing the GPU V-RAM footprint by
 |image-size: 512x512|24 min|
 |image-size: 256x256|10 min|
 <br>
+
 ### 4.2) Results
 
 This competition use simple mean classification accuracy as evaluation metric. This is how we will evaluate our models.
