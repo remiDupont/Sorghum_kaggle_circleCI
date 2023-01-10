@@ -52,7 +52,6 @@ I first used as very simple CNN, resnet18 that I can train quickly on some image
 - it gave us a good baseline.
 
 if I do more complex stuff resulting in a similar/lower model performance, **it is therefore very likely that I have a bug** <br>
-<br>
 
 ### 4.1) Performances
 
@@ -72,7 +71,6 @@ I also converted my model from fp32 to fp16, reducing the GPU V-RAM footprint by
 |Default strategy, image-size: 1024x1024|1 h 20 min|
 |image-size: 512x512|24 min|
 |image-size: 256x256|10 min|
-<br>
 
 ### 4.2) Results
 
