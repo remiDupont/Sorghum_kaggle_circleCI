@@ -90,7 +90,7 @@ This competition use simple mean classification accuracy as evaluation metric. T
 
 ## 5) Conclusion
 
-In this project, we developed a **simple strategy leading quickly to a very good result** (top 8%). 
+In this project, we developed a **simple strategy leading quickly to a very good result** (top 5%). 
 I found it intresting to see that I **only used 4 simple trics**: 
 - data augmentation
 - using small images/ model first 
@@ -106,4 +106,4 @@ Please note that **this strategy do not apply only in computer vision, but all d
 <br>
 
 
-Thanks for your time, dont forget to suscri... wait, it's not youtube ! and do not hesitate to contact me if you have any question !
+Thanks for your time, don't forget to suscri... wait, it's not youtube ! and do not hesitate to contact me if you have any question !
